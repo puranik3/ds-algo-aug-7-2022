@@ -5,11 +5,11 @@ Sum of numbers in an array
 
 ## Space and time complexity
 - Time complexity
-    - Example 1: Finding min in general array
+    - Example 1: Finding if a key exists in general array
     Find 101 in
     153 10 38 46 82 61 121 54 133 160 73 101 144 25 111 99
     
-    - Example 2: Finding min in sorted array - linear vs binary search
+    - Example 2: Finding if a key exists in a sorted array - linear vs binary search
     Find 101 in
     10 25 38 46 54 61 73 82 99 101 111 121 133 144 153 160
     
@@ -56,6 +56,8 @@ o(g(n)) = {f(n) : for any positive constant c > 0, there exists a constant n0 > 
 ## Comparison of functions
 - constant time (eg. hash table / array access), log n, n, n log n, n^2, n^3, n^k, 2^n, n!
 
+log n < n < n log n < n * n < n * n * n 
+
 ## Master theorem
 
 ### Motivation
@@ -75,3 +77,6 @@ where a ≥ 1 and b > 1 are constants and f (n) is an asymptotically positive fu
 
 ## References
 - https://web.iiit.ac.in/~pratik.kamble/storage/Algorithms/Cormen_Algorithms_3rd.pdf
+
+## Questions
+- Can we discuss recursion with an example involving multiple recursive calls?
